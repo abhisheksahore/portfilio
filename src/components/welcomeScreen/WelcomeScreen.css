@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@700&display=swap');
+
+.welcome-background {
+    background-color: rgb(14, 14, 14);
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    animation: size 5s forwards;
+    animation-delay: 4s;
+}
+
+.text-inner-wrapper  {
+    animation: size 2s forwards;
+    animation-delay: 2.5s;
+}
+
+.welcome-text {
+    font-family: 'Dancing Script' ,Nunito;
+    font-weight: 900;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px white;
+    animation: color-change 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    font-size: 2.2rem;
+    animation: zoom 1s ease forwards 6s;
+    /* animation: slide-left 2s ease forwards 9s; */
+}
+
+#namaste {
+    animation: fill 1.5s ease forwards 3.5s;
+}
+
+#namaste path:nth-child(1){
+    stroke-dasharray: 235;
+    stroke-dashoffset: 235;
+    animation: line-anim 3s forwards .3s;
+}
+#namaste path:nth-child(2){
+    stroke-dasharray: 210;
+    stroke-dashoffset: 210;
+    animation: line-anim 3s forwards .6s;
+}
+#namaste path:nth-child(3){
+    stroke-dasharray: 280;
+    stroke-dashoffset: 280;
+    animation: line-anim 3s ease forwards .9s;
+}
+#namaste path:nth-child(4){
+    stroke-dasharray: 210;
+    stroke-dashoffset: 210;
+    animation: line-anim 3s ease forwards 1.2s;
+}
+#namaste path:nth-child(5){
+    stroke-dasharray: 184;
+    stroke-dashoffset: 184;
+    animation: line-anim 3s ease forwards 1.5s;
+}
+#namaste path:nth-child(6){
+    stroke-dasharray: 127;
+    stroke-dashoffset: 127;
+    animation: line-anim 3s ease forwards 1.8s;
+}
+#namaste path:nth-child(7){
+    stroke-dasharray: 222;
+    stroke-dashoffset: 222;
+    animation: line-anim 3s ease forwards 2.1s;
+}
+
+
+@keyframes line-anim {
+    to {stroke-dashoffset: 0;}
+}
+
+@keyframes fill {
+    to {fill: white;}
+}
+
+@keyframes zoom {
+    to {transform: scale(400)}
+}
+
+@keyframes slide-left {
+    to {transform: translateX(-100%);}
+}

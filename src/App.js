@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import Home from './components/home/Home';
+import WelcomeScreen from './components/welcomeScreen/WelcomeScreen.jsx';
 
 function App() {
+  const [showWelcome, setShowWelcome] = useState(true)
+
+  useEffect(() => {
+    setTimeout(()=>{
+      setShowWelcome(false);
+    }, 8000)
+    return () => {
+    }
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      { showWelcome 
+        ?<WelcomeScreen />
+        :null
+      }
+      <Home />
+    </React.Fragment>
   );
 }
 
