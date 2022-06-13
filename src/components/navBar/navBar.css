@@ -1,0 +1,9 @@
+.nav-menu ul {
+    display: flex;
+    gap: 1rem;
+    padding-right: 2rem;
+}
+.nav-menu ul li {
+    list-style: none;
+
+}

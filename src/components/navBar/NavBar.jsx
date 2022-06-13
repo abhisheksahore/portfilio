@@ -1,8 +1,9 @@
 import React from 'react'
+import './navBar.css'
 
 function NavBar() {
     return (
-        <div>
+        <div className='nav-menu'>
             <ul className="display-flex">
                 <li>Home</li>
                 <li>Projects</li>
