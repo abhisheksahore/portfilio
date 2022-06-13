@@ -1,8 +1,9 @@
 .nav-menu {
     font-weight: 600;
     padding: 3rem;
-    font-size: .9rem;
+    font-size: 1rem;
     color: black;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    color: white;
     /* animation: colors 5s infinite; */
 }
