@@ -1,9 +1,7 @@
-.nav-menu ul {
-    display: flex;
-    gap: 1rem;
-    padding-right: 2rem;
-}
-.nav-menu ul li {
-    list-style: none;
-
+.nav-menu {
+    font-weight: 500;
+    padding: 3rem;
+    font-size: 1.25rem;
+    color: black;
+    /* animation: colors 5s infinite; */
 }
