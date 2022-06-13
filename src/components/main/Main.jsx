@@ -6,7 +6,8 @@ const Main = () => {
     <div className='main-container'>
         <div>
             <h1>Hi,</h1>  
-            <div className='main-intro-name'>I'm Abhishek Sahore,</div> a web Developer from Himachal Pradesh, India. 
+            <div className='main-intro-name'>I'm Abhishek Sahore</div> 
+            <div className='sub-text main-intro-sub-text'>a web Developer from Himachal Pradesh, India.</div>  
         </div>
         <div>
 

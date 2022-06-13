@@ -5,11 +5,21 @@
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    margin-bottom: 1rem;
 }
 
 
 .main-intro-name {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600;
+}
+
+.sub-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.main-intro-sub-text {
+    margin-top: 2rem;
 }
