@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Main.css'
 
 const Main = () => {
   return (
-    <div>
+    <div className='main-container'>
         <div>
-            Hi, I'm Abhishek Sahore, a web Developer from Himachal Pradesh, India. 
+            <h1>Hi,</h1>  
+            <div className='main-intro-name'>I'm Abhishek Sahore,</div> a web Developer from Himachal Pradesh, India. 
         </div>
         <div>
 
