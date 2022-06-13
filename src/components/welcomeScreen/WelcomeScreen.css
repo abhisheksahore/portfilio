@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@700&display=swap');
 
 .welcome-background {
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(255, 255, 255);
 }
 
 .welcome-container {
@@ -32,7 +32,7 @@
     animation-delay: 1s;
     animation-fill-mode: forwards;
     font-size: 2.2rem;
-    animation: zoom 1s ease forwards 6s;
+    animation: zoom .8s ease forwards 5.5s;
     /* animation: slide-left 2s ease forwards 9s; */
 }
 
@@ -82,7 +82,7 @@
 }
 
 @keyframes fill {
-    to {fill: white;}
+    to {fill: black;}
 }
 
 @keyframes zoom {
