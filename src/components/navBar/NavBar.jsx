@@ -4,7 +4,7 @@ import './navBar.css'
 function NavBar() {
     return (
         <div className='nav-menu'>
-            contact me
+            contact me!
         </div>
     )
 }

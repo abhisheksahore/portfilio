@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
+import Main from '../main/Main'
 import './Home.css'
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
             <div className='colored-strip'></div>
             <div className='home-content-wrapper'>
                 <Header />
+                <Main />
                 <Footer />
             </div>
         </div>
