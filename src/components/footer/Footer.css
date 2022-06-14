@@ -11,3 +11,14 @@
     font-weight: 600;
     letter-spacing: 5px;
 }
+
+.horizontal-flag {
+    height: 3px;
+    width: 50px;
+}
+
+.flags-wrapper-horizontal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

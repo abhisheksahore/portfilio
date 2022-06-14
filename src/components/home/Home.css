@@ -17,3 +17,34 @@
     background-color: #2f016a;
     box-shadow: 0 0 20px 20px #2f016a;
 }
+
+.flags-wrapper-vertical {
+    display: flex;
+    /* gap: 2px; */
+    flex-direction: column;
+}
+
+.vertical-flag {
+    height: 30px;
+    width: 3px;
+}
+
+.flag-color-megenta {
+    background-color: rgb(255, 0, 89);
+    box-shadow: 0 0 8px 2px rgb(255, 0, 89);
+}
+
+.flag-color-blue {
+    background-color: #6f00ff;
+    box-shadow: 0 0 8px 2px #6f00ff;
+}
+
+.flag-color-grey {
+    background-color: rgb(102, 102, 102);
+    box-shadow: 0 0 8px 2px rgb(102, 102, 102);
+}
+
+.flag-color-white {
+    background-color: white;
+    box-shadow: 0 0 8px 2px white;
+}

@@ -13,6 +13,12 @@ function Home() {
                 <Main />
                 <Footer />
             </div>
+            <div className='flags-wrapper-vertical'>
+                <div className='vertical-flag flag-color-white'></div>
+                <div className='vertical-flag flag-color-grey'></div>
+                <div className='vertical-flag flag-color-megenta'></div>
+                <div className='vertical-flag flag-color-blue'></div>
+            </div>
         </div>
     )
 }
